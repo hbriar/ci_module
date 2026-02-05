@@ -16,15 +16,4 @@ def test_minimum():
     assert ci_course.minimum(1, 2, 3) == 1
     assert ci_course.minimum(1.2, 2.3) == 1.2
     assert ci_course.minimum(-1.2, -3, 6) == -3
-    assert ci_course.minimum("cat", "box") == None
-
-
-def test_minimum():
-    """
-    Test the function `minimum` in functionality.py
-    """
-    assert ci_course.minimum(1, 2, 3) == 1
-    assert ci_course.minimum(1.2, 2.3) == 1.2
-    assert ci_course.minimum(-1.2, -3, 6) == -3
     assert ci_course.minimum("cat", "box") is None
-    
